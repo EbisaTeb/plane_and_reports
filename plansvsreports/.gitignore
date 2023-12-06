@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-# backend/node_modules
+# plane_and_reports/backend/node_modules
 # plansvsreports/node_modules
 /node_modules
 /.pnp
