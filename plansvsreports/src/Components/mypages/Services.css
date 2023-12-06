@@ -1,0 +1,115 @@
+.table {
+    margin: 20px;
+    border-collapse: collapse;
+
+}
+
+.table th,
+.table td {
+    border: 1px solid black;
+
+    /* Add border to table cells */
+
+
+}
+
+.table-cell {
+    position: relative;
+    padding: 8px;
+
+}
+
+.table-cell input,
+.table-cell textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    min-width: auto;
+    height: 25px;
+    padding: 0.5rem;
+    height: auto;
+    font-size: 15px;
+    margin-bottom: 5px;
+    min-height: 25px;
+    margin-left: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.table-cell input::-webkit-resizer,
+.table-cell textarea::-webkit-resizer {
+    display: none;
+}
+
+.table-cell textarea {
+    resize: vertical;
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+    white-space: normal;
+    /* Added */
+}
+
+th .tableHeader-cell {
+    position: relative;
+    height: 40px;
+    width: 100px;
+    margin-bottom: 5px;
+    width: 100%;
+    min-width: 100px;
+    padding: 30px;
+    overflow: hidden;
+    height: auto;
+    margin-left: 0px;
+    margin-right: 5px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    resize: none;
+    text-transform: uppercase;
+    font-weight: 70px;
+}
+
+
+.tableHeader-cell.editing {
+    border: 1px solid #ccc;
+    /* Add any styles you want for an editing state */
+}
+
+
+.confirmation-dialog {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.confirmation-dialog p {
+    margin-bottom: 10px;
+}
+
+.table-wrapper {
+
+    overflow-x: auto;
+}
+
+.export-table {
+    border-collapse: collapse;
+}
+
+.export-table th,
+.export-table td {
+    border: 1px solid black;
+    padding: 5px;
+    white-space: nowrap;
+}
